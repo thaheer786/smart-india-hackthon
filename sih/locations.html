@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="locate.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <img src="images/logo-jhark.jpg.jpg" alt="Jharkhand Logo">
+
+  <title>Jharkhand Explorer - Tourist Guide</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+   <header>
+    <nav>
+        <!-- Logo Image + Text -->
+        <a href="#" class="logo">
+           <img src="file:///C:/Users/thahe/OneDrive/Pictures/Screenshots/logo-jhark.jpg.jpg" alt="Jharkhand Logo">
+            <span >Jharkhand</span>
+        </a>
+
+        <!-- Navigation Links -->
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#culture">Culture</a></li>
+            <li><a href="#plan">Plan Trip</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Hamburger Menu -->
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+</header>
+
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <button class="sidebar-toggle" id="sidebarToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="sidebar-content">
+        <h2><i class="fas fa-gem"></i> Featured Destinations</h2>
+        <div id="placesList"></div>
+      </div>
+    </div>
+
+    <!-- Map -->
+    <div class="map-container">
+      <div id="map"></div>
+
+      <!-- Route Controls -->
+      <div class="route-controls" id="routeControls">
+        <div class="route-info">
+          <div class="route-distance">
+            <i class="fas fa-route"></i>
+            <span id="routeDistance">0 km</span>
+          </div>
+          <div class="route-time">
+            <i class="fas fa-clock"></i>
+            <span id="routeTime">0 min</span>
+          </div>
+        </div>
+        <button class="clear-route" id="clearRoute">
+          <i class="fas fa-times"></i> Clear Route
+        </button>
+      </div>
+    </div>
+
+    <!-- Loading -->
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <div class="loading-text">Loading Jharkhand...</div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+  <script src="locate.js"></script>
+
+</body>
+</html>

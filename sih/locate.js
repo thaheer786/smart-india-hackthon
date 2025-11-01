@@ -22,7 +22,7 @@
        image:"https://images.unsplash.com/photo-1590736969955-71cc94901144?w=500&h=300&fit=crop&crop=center"},
       {id:6,name:"Hazaribagh National Park",category:"Wildlife",lat:23.9833,lng:85.3667,rating:4.4,
        description:"Famous for its tiger reserve and diverse flora and fauna.",
-       review:"Great place for wildlife enthusiasts. Night safari was amazing.",
+       review:"Great place for wildlife enthusiasts. Night safari was amazing.",  
        image:"https://images.unsplash.com/photo-1549366021-9f761d040a94?w=500&h=300&fit=crop&crop=center"},
       {id:7,name:"Netarhat Hill Station",category:"Hill Station",lat:23.4669,lng:84.2606,rating:4.5,
        description:"Known as the 'Queen of Chotanagpur', famous for sunrise and sunset views.",

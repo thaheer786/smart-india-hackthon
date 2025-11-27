@@ -117,7 +117,7 @@
             background-position: center;
             background-attachment: fixed;
         }
-
+   
         .slide.active {
             opacity: 1;
         }

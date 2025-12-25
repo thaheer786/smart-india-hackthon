@@ -136,7 +136,7 @@
       const place = places.find(p => p.id === placeId);
       if (!place) return;
       if (type === "from") selectedMarkers[0] = place;
-      if (type === "to") selectedMarkers[1] = place;
+      if (type === "to") selectedMarkers[1] = place; 
       if (selectedMarkers[0] && selectedMarkers[1]) drawRoute(selectedMarkers[0], selectedMarkers[1]);
     }
 

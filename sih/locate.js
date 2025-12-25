@@ -58,7 +58,7 @@
       places.forEach(place => {
         const marker = L.marker([place.lat, place.lng])
           .addTo(map)
-          .bindPopup(createPopupContent(place));
+          .bindPopup(createPopupContent(place)); 
         markers[place.id] = marker;
         marker.on("click", () => highlightSidebarItem(place.id));
       });

@@ -1,6 +1,6 @@
 // Places data
     const places = [
-      {id:1,name:"Betla National Park",category:"Wildlife",lat:23.9167,lng:84.1833,rating:4.6,
+      {id:1,name:"Betla National Park",category:"Wildlife",lat:23.9167,lng:84.1833,rating:4.6, 
        description:"One of the earliest national parks in India, famous for tigers, elephants, and diverse wildlife.",
        review:"Incredible wildlife experience! Saw tigers, elephants, and countless bird species.",
        image:"https://images.unsplash.com/photo-1549366021-9f761d040a94?w=500&h=300&fit=crop&crop=center"},

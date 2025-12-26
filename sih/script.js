@@ -3,7 +3,7 @@
     const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.slide-dot');
 
-    function showSlide(index) {
+    function showSlide(index) { 
         slides.forEach(slide => slide.classList.remove('active'));
         dots.forEach(dot => dot.classList.remove('active'));
         

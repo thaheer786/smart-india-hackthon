@@ -15,7 +15,7 @@
         currentSlide = (currentSlide + 1) % slides.length;
         showSlide(currentSlide);    
     } 
-
+ 
     // Auto-advance slides every 5 seconds
     setInterval(nextSlide, 5000);
 

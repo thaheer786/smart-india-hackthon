@@ -8,7 +8,7 @@
         dots.forEach(dot => dot.classList.remove('active'));
         
         slides[index].classList.add('active');
-        dots[index].classList.add('active');
+        dots[index].classList.add('active'); 
     }
 
     function nextSlide() {
